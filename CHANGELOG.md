@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.13.1
+## 2.13.2
 
 Fixes:
 
@@ -529,7 +529,7 @@ Bug fixes:
 ## 1.2.7
 
 Bug fixes:
-- Restore `exception_level_filters` feature, which was inadvertently removed in 1.2.0. See [#160](https://github.com/rollbar/rollbar-gem/pull/160) 
+- Restore `exception_level_filters` feature, which was inadvertently removed in 1.2.0. See [#160](https://github.com/rollbar/rollbar-gem/pull/160)
 - Fix bug where rollbar_url incorrectly handled comma-separated X-Forwarded-Proto header values. See [#112](https://github.com/rollbar/rollbar-gem/issues/112)
 
 
@@ -583,7 +583,7 @@ Bug fixes:
 New features:
 
 - Added new, much nicer interface for sending exceptions and messages to Rollbar. This is a backwards-compatible release: the old interface (`report_message`, `report_exception`, `report_message_with_request`) is deprecated but will continue to work at least until 2.0.
-  
+
   See the docs for [basic](https://github.com/rollbar/rollbar-gem#caught-exceptions-and-messages) and [advanced](https://github.com/rollbar/rollbar-gem#advanced-usage) usage for a guide to the new interface. If you've used [rollbar.js](https://github.com/rollbar/rollbar.js), it will be familiar.
 
 ---
